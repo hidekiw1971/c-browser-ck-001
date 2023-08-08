@@ -57,13 +57,13 @@ img {
 }
 
 /* Natural flow and rhythm in articles by default */
-article>*+* {
+article > * + * {
   margin-top: 1em;
 }
 
 /* Inherit fonts for inputs and buttons */
 input,
-// button,
+button,
 textarea,
 select {
   font: inherit;
@@ -77,7 +77,7 @@ img:not([alt]) {
 
 /* フォームリセット */
 input,
-// button,
+button,
 select,
 textarea {
   -webkit-appearance: none;
